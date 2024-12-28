@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bridge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-6">
+        <img src="images/LogoBridge.png">
+   </div>
+  </header>
+
+
+  <section class="relative bg-gray-900 ">
+    <img 
+    src="images/teamwork.jpg" 
+    alt="Hero Image" 
+    class="w-full h-[75vh] object-cover rounded-lg shadow-lg"  
+  />
+      <div class=" container bg-slate-200/50 w-1/2 h-1/2 ml-[320px] mt-32  absolute inset-0 flex flex-col items-center justify-center text-center">
+      <h2 class="text-3xl font-bold ">Improve your skills on your own</h2>
+      <p class="mt-2 text-3xl font-bold">To prepare for a better future</p>
+      <button class="mt-4 px-12 font-semibold  py-2 bg-pink-500 text-white text-xl rounded-full  shadow-md hover:bg-pink-600">
+        Register Now
+      </button>
+    </div>
+  </section>
+
+ 
+  <section class="py-12  my-12  ">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center ml-12 mb-8">
+        <h3 class="text-5xl font-bold">Discover Our Courses</h3>
+        <button class="text-white px-8 mr-20 py-2 bg-pink-600 rounded-full  font-semibold hover:underline">View More</button>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-16">
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/angular.png" alt="Spring Boot / Angular" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 ml-8 text-3xl font-bold">Spring Boot / Angular</h4>
+          <p class="mt-2 ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/react.png" alt="Node JS / React" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4  ml-8 text-3xl font-bold">Node JS / React</h4>
+          <p class="mt-2 ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/flutter.jpg" alt="Flutter / Firebase" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 ml-8 text-3xl font-bold">Flutter / Firebase</h4>
+          <p class="mt-2  ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/bi.jpg" alt="Business Intelligence" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4 ml-8 text-3xl font-bold">Business Intelligence</h4>
+          <p class="mt-2 ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/ai.jpg" alt="Artificial Intelligence" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4  ml-8 text-3xl font-bold">Artificial Intelligence</h4>
+          <p class="mt-2 ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg ">
+          <img src="images/devops.png" alt="DevOps" class="w-full h-40 object-cover rounded-md">
+          <h4 class="mt-4  ml-8 text-3xl font-bold">DevOps</h4>
+          <p class="mt-2 ml-8 text-xl text-pink-500 font-bold">350 DT/ Month</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+<section class="h-auto bg-yellow-500 rounded-[50px] flex w-2/3 items-center justify-center mx-52 my-12">
+    <div class=" p-2 rounded-lg  w-full max-w-xl mx-auto">
+      <h3 class="text-2xl font-bold text-center mb-6">Contact Us</h3>
+      <form class="space-y-4 ">
+        <div>
+          <label for="name" class="block text-gray-700 font-bold mb-2">NAME</label>
+          <input id="name" type="text" placeholder="Jiara Martins" class="w-full px-4 py-2 border rounded-full focus:outline-none focus:ring focus:ring-yellow-400">
+        </div>
+        <div>
+          <label for="email" class="block text-gray-700 font-bold mb-2">EMAIL</label>
+          <input id="email" type="email" placeholder="hello@reallygreatsite.com" class="w-full px-4 py-2 border rounded-full focus:outline-none focus:ring focus:ring-yellow-400">
+        </div>
+        <div>
+          <label for="message" class="block text-gray-700 font-bold mb-2">MESSAGE</label>
+          <textarea id="message" placeholder="Write your message here" class="w-full px-4 py-2 border rounded-[24px] focus:outline-none focus:ring focus:ring-yellow-400"></textarea>
+        </div>
+        <button type="submit" class="w-52 px-4 py-1  ml-40 bg-pink-500 text-white font-bold rounded-md hover:bg-pink-600">
+          Send the Message
+        </button>
+      </form>
+    </div>
+  </section>
+  
+
+</body>
+</html>
