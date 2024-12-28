@@ -1,0 +1,6 @@
+/Admin_api/storage/*
+!/Admin_api/storage/app/*
+!/Admin_api/storage/framework/cache/*
+!/Admin_api/storage/framework/sessions/*
+!/Admin_api/storage/framework/views/*
+!/Admin_api/storage/logs/*
